@@ -35,9 +35,5 @@ public class CreatingSpliterator {
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
-
-        System.out.println(path.toFile().exists());
-
-
     }
 }

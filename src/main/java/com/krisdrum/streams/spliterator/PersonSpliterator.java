@@ -5,7 +5,7 @@ import java.util.Spliterator;
 import java.util.function.Consumer;
 
 public class PersonSpliterator implements Spliterator<Person> {
-    Spliterator<String> lineSpliterator;
+    private Spliterator<String> lineSpliterator;
     private String name;
     private int age;
     private String city;
